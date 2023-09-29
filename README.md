@@ -1,4 +1,3 @@
-# air-quality-monitor
 # Air Quality Monitor with ESP32
 
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue)
@@ -16,7 +15,7 @@ The air quality monitor is designed to collect data from the following sensors:
 - RTC DS1307 Clock: Used to timestamp data collection.
 - DS18B20 Temperature Sensor: Measures ambient temperature.
 
-Data collected by the sensors is processed, and averages are calculated over a data collection period (typically 30 seconds, but customizable). Subsequently, the data is sent to Google Firebase Firestore via a Wi-Fi connection.
+Data collected by the sensors is processed, and averages are calculated over a data collection period (typically 30 seconds, but customizable). Subsequently, the data is sent to Google Firebase Firestore using Wi-Fi connection.
 
 ## Used Libraries
 
